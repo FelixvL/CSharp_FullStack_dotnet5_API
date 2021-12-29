@@ -50,7 +50,8 @@ namespace WebApplication11.RESTAPI
         {
             return "value";
         }
-
+        int a;
+        int blablabla;
         // POST api/<KeukenController>
         [HttpPost]
         public string Post([FromBody] Kok dekok)
